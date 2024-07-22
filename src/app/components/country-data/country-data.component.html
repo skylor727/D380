@@ -1,0 +1,28 @@
+<aside>
+  <table *ngIf="countryData">
+    <tr>
+      <th>Country:</th>
+      <td>{{ countryData.name }}</td>
+    </tr>
+    <tr>
+      <th>Capital:</th>
+      <td>{{ countryData.capitalCity }}</td>
+    </tr>
+    <tr>
+      <th>Region:</th>
+      <td>{{ countryData.region }}</td>
+    </tr>
+    <tr>
+      <th>Income:</th>
+      <td>{{ countryData.incomeLevel }}</td>
+    </tr>
+    <tr>
+      <th>Latitude:</th>
+      <td>{{ countryData.latitude }}</td>
+    </tr>
+    <tr>
+      <th>Longitude</th>
+      <td>{{ countryData.longitude }}</td>
+    </tr>
+  </table>
+</aside>
